@@ -5,4 +5,4 @@ If you want to use other versions, please modify the redis version number in the
 Useage:  
 docker run --name redis-trb -id redis-trb:4.0.14    
 docker exec -ti redis-trb sh  
-redis-trib <command> <options> <arguments ...>
+redis-trib <command> <options> <arguments>
