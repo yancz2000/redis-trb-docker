@@ -4,7 +4,7 @@ If you want to use other versions, please modify the redis version number in the
 
 ### Useage:  
 docker run --name redis-trb -id redis-trb  
-docker exec -ti redis-trb sh  
+docker exec -ti redis-trb bash  
 redis-trib \<command\> \<options\> \<arguments ...\>
 
 ### Examples:  
