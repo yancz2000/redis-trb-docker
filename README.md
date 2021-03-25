@@ -6,3 +6,6 @@ If you want to use other versions, please modify the redis version number in the
 docker run --name redis-trb -id redis-trb  
 docker exec -ti redis-trb sh  
 redis-trib \<command\> \<options\> \<arguments ...\>
+
+### Examples:  
+redis-trib.rb create --replicas 1 10.254.3.102:7001 10.254.3.103:7002 10.254.3.118:7003 10.254.3.102:6001 10.254.3.103:6002 10.254.3.118:6003
